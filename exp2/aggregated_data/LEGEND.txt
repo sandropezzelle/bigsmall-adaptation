@@ -1,0 +1,22 @@
+Legend:
+
+1. partID: ID of participant
+2. order: order of presentation of the stimuli, i.e., A or B
+3. condition: Q(uestion) or C(ontrol)
+4. score: 1 (correct) or 0 (wrong)
+5. Ntrial: number of trial, from 1 to 32
+6. imgID: ID of the image
+7. block: which of the four presentation blocks the trial belongs to (A, B, C or D)
+8. Tshape: shape of the target object
+9. Tcolor: color of the target object
+10. Tsize: size label of the target object
+11. DFT: D(istance) F(rom) T(hreshold) of the target object
+12. NTOTobjs: number of total objects in the image
+13. NRSobjs: number of total objects in the reference set
+14. NTOTcolors: number of total colors in the image
+15. NsamesizeRS: number of objects in the reference set bearing the same size label as the target one
+16. NdiffsizeRS: number of objects in the reference set bearing the opposite size label than the target one
+17. Qevent: whether participant asked one or more questions (yes) or not (no)
+18. Nquestions: number  of questions asked by the participant for a given trial
+19. informativeness: whether the Qevent is fully resolutive (yes) or not (no); manually annotated by Experimenter
+20. Qtype: linguistic type of the question; manually annotated by Experimenter

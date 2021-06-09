@@ -1,0 +1,9 @@
+LEGEND:
+
+1. partID: ID of participant
+2. trial: number of trial, from 1 to 20
+3. dft: D(istance) F(rom) T(hreshold) of target object
+4. class: borderline or clearcut based on DFT of target object
+5. gtsize: size label assigned by malevic
+6. partsize: size label assigned by participant
+7. accuracy: 0 (wrong, i.e., not aligned with malevic) or 1 (correct, i.e. aligned)

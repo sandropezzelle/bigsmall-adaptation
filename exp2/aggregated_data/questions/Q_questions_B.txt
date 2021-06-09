@@ -1,0 +1,103 @@
+participantID,trial,Nquestions,question,answer,removes_uncertainty,annotation,comment
+31,2,1,is the yellow circle a big circle?,no,no,E,other_shape
+31,7,1,is the green circle smaller than the blue square?,no,no,D,other_shape
+31,14,1,is the green circle smaller than the white cirlce?,yes,no,D,answer_based_on_pixels
+32,2,1,are there 2 big squares?,no,yes,B
+32,4,1,are there 2 big circles?,no,no,B,can_still_be_3
+32,6,1,are there 2 big rectangles?,no,yes,B
+32,8,1,are there more than 3 small circles?,no,yes,G
+32,10,1,are there more than 2 small rectangles?,no,yes,G
+32,12,1,is there only one big circle?,yes,yes,F
+32,13,1,are there 2 big rectangles?,no,no,B,can_still_be_3
+32,18,1,are there 2 big triangles?,no,no,B,can_still_be_3_or_4
+32,19,1,are there 2 small rectangles?,no,yes,B,borderline_they_cannot_be_3
+32,27,1,are there 2 big triangles?,no,no,B,can_still_be_3
+32,29,1,are there 2 big rectangles?,yes,yes,B
+32,30,1,are there 2 big triangles?,no,yes,B
+33,2,1,is the white circle big?,no,no,E,other_shape
+33,3,1,is the red circle small?,no,no,E
+33,4,3,is the white bar small?,no,no,E,other_shape
+33,7,1,is the yellow square small?,yes,no,E
+33,9,2,is the red triangle big?,no,no,E,other_shape
+33,11,1,is the green triangle a small triangle?,yes,no,E
+33,12,1,is the white square a big square?,no,no,E,other_shape
+33,13,1,is the yellow circle a big circle?,yes,no,E,other_shape
+33,15,1,is the blue square a big square?,yes,no,E,other_shape
+33,17,1,are there big circles?,yes,no,A
+33,19,1,is the blue rectangle a big rectangle?,yes,no,E
+33,21,1,is the red rectangle a big rectangle?,no,no,E
+33,22,2,is the size of the green circle the same as the size of the white circle?,no,no,M,answer_based_on_pixel
+33,27,1,is the yellow triangle a big triangle?,no,no,E
+33,30,1,is the blue square a small square?,yes,no,E,other_shape
+34,7,1,is the yellow square a small square?,yes,no,E
+34,18,1,is white triangle big?,no,no,E
+35,2,5,is there more than one big square?,no,yes,G
+35,3,1,is red circle big?,yes,no,E
+35,4,1,are there more than two small circles?,yes,yes,G
+35,5,1,is red triangle big?,no,no,E
+35,7,1,are there three small squares?,no,no,B,can_still_be_2_or_4
+35,8,1,are there more than two big circles?,yes,yes,G
+35,10,1,is there more than one big rectangle?,yes,yes,G
+35,12,1,is blue circle small?,yes,no,E
+35,13,1,are there two big rectangles?,yes,yes,B,wrong_answer_by_me_it_should_be_no
+35,14,2,is there more than one small circle?,no,yes,G,question_not_needed
+35,15,1,is there one big circle?,no,yes,B
+35,16,1,is there one big square?,no,yes,B
+35,17,1,is there more than one big circle?,yes,yes,G
+35,18,1,is there more than one big triangle?,no,yes,G
+35,19,1,are there more than two big rectangles?,yes,yes,G
+35,22,1,is there more than one small circle?,yes,yes,G
+35,23,1,is there more than one big rectangle?,no,yes,G
+35,24,1,is there one big square?,no,yes,B
+35,25,1,is there more than one small triangle?,no,yes,G
+35,26,1,is there more than one big triangle?,no,yes,G
+35,27,1,is there more than one big triangle?,no,yes,G
+35,28,1,is there more than one small square?,yes,yes,G
+35,29,2,is there more than one big rectangle?,yes,yes,G
+35,30,1,is there one big triangle?,yes,yes,B
+35,31,1,is there one big square?,no,yes,B
+35,32,1,is there one big square?,yes,yes,B
+36,27,1,is the yellow triangle big?,no,no,E
+36,29,1,is the white circle big?,no,no,E,other_shape
+36,32,1,is the green square small?,yes,no,E
+37,2,1,are there two big squares?,no,yes,B
+37,5,1,are there more than 1 big triangles?,yes,yes,G
+37,7,1,are there more than 1 big squares?,no,yes,G
+37,10,1,are there more than 1 big rectangles?,yes,yes,G
+37,13,1,is there more than 1 big rectangle?,no,yes,G
+37,14,1,is there more than 1 big circle?,yes,yes,G
+37,17,1,is there more than 1 big circle>,yes,yes,G
+37,18,1,is there more than 1 big triangle?,no,yes,G
+37,19,1,are there 3 big rectangles?,yes,yes,B
+37,24,1,is there more than 1 big square?,yes,yes,G
+37,30,1,are there two small triangles?,yes,yes,B
+37,32,1,is there more than 1 big square?,no,yes,G
+38,9,2,is the yellow rectangle the biggest rectangle?,no,no,D
+38,14,1,is the green circle the biggest circle?,no,no,D
+39,23,1,is the red rectangle small?,yes,no,E
+39,27,1,are there any big triangles?,yes,no,A
+40,6,2,are there two big rectangles?,no,yes,B
+40,7,1,are there two big squares?,no,no,B,can_still_be_3_or_4
+40,10,1,are there two big rectangles?,yes,yes,B
+40,11,1,are there two big triangles?,yes,yes,B
+40,12,1,are there two big circles?,no,no,B,can_still_be_3
+40,13,1,are there two big rectangles?,no,no,B,can_still_be_3
+40,14,1,are there two big circles?,yes,yes,B
+40,15,1,are there two big circles?,yes,yes,B
+40,16,1,are there two big squares?,yes,yes,B
+40,17,1,are there two big circles?,yes,yes,B
+40,18,1,are there two big triangles?,no,no,B,can_still_be_3_or_4_or_5
+40,19,1,are there two small rectangles?,no,yes,B,borderline_they_cannot_be_3
+40,20,1,are there two big squares?,yes,yes,B
+40,21,1,are there two big rectangles?,no,no,B,can_still_be_3
+40,22,1,are there two small circles?,yes,yes,B
+40,23,1,are there two big rectangles?,no,no,B,can_still_be_3
+40,24,1,are there two big squares?,yes,yes,B
+40,25,1,are there two big triangles?,yes,yes,B
+40,26,1,are there two big triangles?,no,no,B,can_still_be_3
+40,27,1,are there two big triangles?,no,no,B,can_still_be_3
+40,28,1,are there two small squares?,yes,yes,B
+40,29,1,are there two big rectangles?,yes,yes,B
+40,30,2,are there two big triangles?,no,yes,B
+40,31,1,are there two big squares?,yes,yes,B
+40,32,1,are there two big squares?,no,yes,B

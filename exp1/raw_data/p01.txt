@@ -1,0 +1,3 @@
+partID	[1965] yellow_square	[812] green_circle	[406] blue_rectangle	[482] red_triangle	[309] white_triangle	[1237] red_square	[127] yellow_circle	[1937] yellow_circle	[107] green_rectangle	[1453] red_triangle	[1140] white_square	[983] white_circle	[1390] green_rectangle	[1664] green_triangle	[52] blue_square	[236] white_circle	[1279] red_rectangle	[703] green_rectangle	[1009] green_triangle	[1951] yellow_square
+p01	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	BIG	SMALL	SMALL	SMALL	SMALL	BIG
+DFT	0.0543	0.0653	0.1051	0.0648	0.0339	0.0596	0.1096	0.0314	0.1433	0.1655	0.2329	0.2341	0.2451	0.2091	0.4643	0.6826	0.5112	0.5763	0.5002	0.2205
