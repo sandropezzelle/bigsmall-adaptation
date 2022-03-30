@@ -1,5 +1,8 @@
 # LOAD LIBRARIES
 
+# Plots saved as:
+# 5x7 / portrait
+
 # plots
 library(ggplot2)
 
@@ -108,6 +111,8 @@ FIG5 <- ggplot(myALL, aes(x=data40.condition, y=Freq/20,
   annotate("text", x = "Q", y = 0.5, label = "chance", vjust = -0.5, hjust = -1) +
   labs(fill = "condition")
 FIG5
+
+FIG5 + geom_jitter(color="blue", size=1.5)
 
 ### T-TESTS AND WILCOXON TESTS
 # Q: TEST ALIGNMENT > 0.5

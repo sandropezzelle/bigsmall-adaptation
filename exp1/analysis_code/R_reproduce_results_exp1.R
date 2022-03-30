@@ -1,5 +1,9 @@
 # LOAD LIBRARIES
 
+# Plots saved as:
+# 5x7 / portrait
+
+
 # plots
 library(ggplot2)
 
@@ -82,13 +86,12 @@ plot.data
 
 p <- ggplot(plot.data, aes(x=group, y=value, fill=group)) + geom_boxplot() +
   theme(legend.position = "top") + xlab("") +
-  ylab("maximum inter-speaker agreement") +
-  # ylab("participants-malevic alignment") +
+  ylab("inter-participant agreement") +
   scale_y_continuous(breaks=c(0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0), limits=c(0.2,1)) +
   geom_hline(yintercept=0.5, linetype="dashed", color = "black") +
   annotate("text", x = "clear-cut", y = 0.5, label = "chance", vjust = -0.5)
 p
-
+p + geom_jitter(color="blue", size=1.5)
 
 # TEST NORMALITY of DISTRIBUTION
 shapiro.test(ccAGR)
@@ -154,6 +157,7 @@ p2 <- ggplot(plot.data2, aes(x=group, y=value, fill=group)) + geom_boxplot() +
   annotate("text", x = "clear-cut", y = 0.5, label = "chance", vjust = -0.5)
 p2
 
+p2 + geom_jitter(color="blue", size=1.5)
 
 ####### TEST NORMALITY of DISTRIBUTION
 shapiro.test(CC)
