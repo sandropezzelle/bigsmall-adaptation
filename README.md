@@ -27,8 +27,8 @@ Structure of the repo:
     
     - raw_data
     
-        -   C: contains responses by each of the 20 participant in condition C(ontrol) and the legend to understand the fields
-        -   Q: contains responses by each of the 20 participant in condition Q(uestion) the legend to understand the fields
+        -   C: contains responses by each of the 20 participants in condition C(ontrol) and the legend to understand the fields
+        -   Q: contains responses by each of the 20 participants in condition Q(uestion) and the legend to understand the fields
     
     - aggregated_data: contains aggregated results (.csv) and the legend to understand the fields in it (.txt)
 
